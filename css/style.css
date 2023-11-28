@@ -1,0 +1,1422 @@
+ @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Permanent+Marker&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Tilt+Warp&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Golos+Text:wght@400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Permanent+Marker&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Tilt+Warp&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+li,ol {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1,h2,h3,h4,h5,h6, a , p , div ,img , li {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Permanent-Marker: 'Permanent Marker', cursive;
+    --Barlow: 'Barlow', sans-serif;
+    --Roboto:  'Roboto', sans-serif;
+    --primary-color: #E7272D;
+    --secondary-color: #FFF4E2;
+    --third-color: #FFFFFF;
+    --text-color: #232323;
+    --text-color-2: #000000;
+    --exception-color: #FBBE36;
+}
+
+/* --------------------------------
+ navbar part design start
+----------------------------------- */
+#header-navbar-part {
+    padding: 5px 0;
+    background-color: var(--text-color);
+}
+
+#header-navbar-part .logo-header {
+    color: #fff;
+    font-family: var(--Permanent-Marker);
+    font-weight: 600;
+    font-size: 26px;
+}
+
+#header-navbar-part .custom-button {
+    color: #fff;
+    box-shadow: none !important;
+    border: none;
+}
+
+#header-navbar-part .custom-navbar  .nav-item .nav-link {
+    color: #fff;
+    font-family: var(--Roboto);
+    margin-right: 25px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+#header-navbar-part .dropdown-menu li a {
+    color: var(--text-color-2);
+    font-family: var(--Roboto);
+}
+
+#header-navbar-part .btn a {
+    padding: 13px 20px;
+    font-family: var(--Roboto);
+    color: var(--primary-color);
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+/* --------------------------------
+    navbar part design end
+----------------------------------- */
+/* --------------------------------
+    banner part design start
+----------------------------------- */
+#sushi-cafe-part {
+    padding-top: 150px ;
+    padding-bottom: 200px;
+    background-color: var(--primary-color); 
+}
+
+#sushi-cafe-part .banner-left-text h4 {
+    color: #fff;
+    font-family: var(--Barlow);
+    font-weight: 800;
+}
+
+#sushi-cafe-part .banner-left-text h1 {
+    color: #fff;
+    font-family: var(--Barlow);
+    font-weight: 900;
+    font-size: 5.5rem;
+}
+
+#sushi-cafe-part .banner-left-text p {
+    color: #fff;
+    font-family: var(--Roboto);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+#sushi-cafe-part .banner-left-text .price-fixed {
+    margin-top: 80px;
+    background-color: var(--exception-color);
+    padding: 10px 0;
+}
+
+#sushi-cafe-part .banner-left-text .price-fixed .menu-items {
+    color: #fff;
+    margin-left: 20px;
+}
+
+#sushi-cafe-part .banner-left-text .price-fixed .menu-items i {
+    font-size: 12px;
+}
+
+#sushi-cafe-part .banner-left-text .price-fixed .menu-items p {
+    font-family: var(--Barlow);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#sushi-cafe-part .banner-left-text .price-fixed .price span  {
+    color: #fff;
+    margin-left: 80px;
+    font-family: var(--Barlow);
+    font-size: 60px;
+    font-weight: 900;
+} 
+
+
+#sushi-cafe-part .banner-left-text .price-fixed .price  i {
+    color: var(--exception-color);
+    font-size: 35px;   
+}
+
+#sushi-cafe-part .banner-left-text .price-fixed .price [class="fa-solid fa-plus"] {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* --------------------------------
+    banner part design end
+----------------------------------- */
+/* --------------------------------
+    order part design start
+----------------------------------- */
+#order-part {
+    padding: 100px 0;
+    background-color: var(--secondary-color);
+}
+
+#order-part .order-common-part h6 {
+    color: var(--primary-color);
+    font-family: var(--Permanent-Marker);
+    font-weight: 500;
+    font-size: 25px;
+
+}
+
+#order-part .order-common-part h3 {
+    color: var(--text-color);
+    font-family: var(--Barlow);
+    font-weight: 900;
+    font-size: 60px;
+}
+
+#order-part .order-common-part p {
+    color: var(--text-color);
+    font-family: var(--Roboto);
+    font-size: 16px;
+    line-height: 30px;
+}
+
+#order-part .order-common-part .btn a {
+    padding: 20px 40px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    font-family: var(--Roboto);
+    font-weight: 600;
+    font-size: 16px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+/* order middle part design start */
+#order-part .order-middle-image img {
+    margin-top: 370px;
+    font-size: 500px;
+}
+/* order middle part design end */
+/* --------------------------------
+    order part design end
+----------------------------------- */
+
+/* ---------------------------------------
+    spacial combo part design start
+------------------------------------------- */
+#spacial-combo-part {
+    padding: 50px 0;
+    background-color: var(--third-color);
+}
+
+#spacial-combo-part .spacial-combo-header-part p {
+    color: var(--primary-color);
+    font-family: var(--Permanent-Marker);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#spacial-combo-part .spacial-combo-header-part h2 {
+    color: var(--text-color);
+    font-family: var(--Barlow);
+    font-weight: 900;
+    font-size: 60px;
+}
+
+/* card item design */
+#spacial-combo-part .card-container h4 {
+    color: var(--text-color);
+    font-family: var(--Barlow);
+    font-weight: 700;
+}
+
+#spacial-combo-part  .card-container:hover h4 {
+    color: #fff;
+}
+
+#spacial-combo-part .card-container p {
+    color: gray;
+    font-family: var(--Roboto);
+    line-height: 26px;
+}
+
+#spacial-combo-part  .card-container:hover p {
+    color: #fff;
+}
+
+#spacial-combo-part .card-container .amount {
+    color: var(--primary-color);
+    font-family: var(--Barlow);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#spacial-combo-part  .card-container:hover .amount {
+    color: #fff;
+}
+
+#spacial-combo-part  .card {
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+/* card hover */
+#spacial-combo-part  .card:hover{
+    background-color: var(--primary-color);
+    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -o-transform: translateY(-30px);
+}
+
+#spacial-combo-part .card-container .btn {
+    padding: 8px 25px;
+    background-color: #fff;
+    border: 1px solid rgb(198, 198, 198);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+/* btn hover */
+#spacial-combo-part .card-container:hover .btn{
+    background-color: var(--exception-color);
+}
+
+
+#spacial-combo-part .card-container .btn a {
+    color: var(--primary-color);
+    font-family: var(--Roboto);
+    font-weight: 600;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+#spacial-combo-part .card-container:hover a {
+    color: #000;
+}
+
+#spacial-combo-part .card-container .card-image img {
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+#spacial-combo-part .card-container:hover .card-image img {
+    margin-bottom: -30px;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+/* ---------------------------------------
+    spacial combo part design end
+------------------------------------------- */
+
+/* ---------------------------------------
+    choose part design start
+------------------------------------------- */
+#choose-part {
+    padding: 100px 0;
+    background-color: var(--third-color);
+}
+
+#choose-part .choose-header-part h6 {
+    color: var(--primary-color);
+    font-family: var(--Permanent-Marker);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#choose-part .choose-header-part h3 {
+    color: var(--text-color,#232323);
+    font-family: var(--Barlow);
+    font-weight: 900;
+    font-size: 60px;
+}
+
+
+#choose-part .card {
+    margin-top: 70px;
+    background-color: var(--primary-color);
+    padding: 30px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#choose-part .card-body .card-title {
+    color: var(--third-color);
+    font-family: var(--Permanent-Marker);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#choose-part .card-body .card-text {
+    color: var(--third-color);
+    font-family: var(--Barlow);
+    font-weight: 800;
+    font-size: 24px;
+}
+
+#choose-part .card-body  .card-btn {
+    color: var(--third-color);
+    font-family: var(--Roboto);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#choose-part .card-body  .card-btn i {
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+#choose-part .card-body  .card-btn:hover i {
+    transform: translateX(16px);
+    -webkit-transform: translateX(16px);
+    -moz-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    -o-transform: translateX(16px);
+}
+
+#choose-part .card-image img {
+    text-align: center;
+}
+
+#choose-part  .card-2 {
+    background-color: var(--text-color);
+}
+
+#choose-part  .card-3 {
+    background-color: var(--exception-color);
+}
+/* =========================================
+    choose part design end
+==============================================*/
+
+/* ===========================================
+    Fastest delivery part design start
+============================================ */
+
+
+#fastest-delivery-part {
+    padding: 50px 0;
+    background-color: var(--secondary-color);
+}
+
+@media (max-width:768px) {
+    #fastest-delivery-part .fastest-delivery-circle {
+        display: flex;
+        flex-direction: column;
+    } 
+    
+    
+}
+
+#fastest-delivery-part .fastest-delivery-circle {
+    max-width: 100%;
+    width: 880px;
+    height: 800px;
+    position: relative;
+    background: var(--primary-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#fastest-delivery-part  .image-left img {
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+/*!!!....... animation design start.......!!! */
+#fastest-delivery-part  .image-left img{
+    animation-name: infinite;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes infinite { 
+    0% {
+        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(-20px);
+        -webkit-transform: translateX(-20px);
+        -moz-transform: translateX(-20px);
+        -ms-transform: translateX(-20px);
+        -o-transform: translateX(-20px);
+}
+
+    100% {
+        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+}
+}
+/*!!!....... animation design end.......!!! */
+
+
+#fastest-delivery-part  .delivery {
+    margin-left: 200px;
+    margin-top: 155px; 
+    margin-left: 380px; 
+} 
+
+#fastest-delivery-part  .delivery i {
+    color: #fff;
+    font-size: 40px;
+}
+
+#fastest-delivery-part  .delivery p {
+    color: #fff;
+    font-family: var(--Roboto);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#fastest-delivery-part  .Feature-part {
+    margin-top: 200px;
+    margin-right: 150px;
+}
+
+#fastest-delivery-part  .Feature-part .common-part i {
+    color: #fff;
+    font-size: 60px;
+
+}
+
+#fastest-delivery-part  .Feature-part .common-part p {
+    color: #fff;
+    font-family: var(--Roboto);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+@media (max-width:768px) {
+    #fastest-delivery-part .fastest-delivery-circle {
+        display: flex;
+        flex-direction: column;
+    } 
+    
+    #fastest-delivery-part  .delivery {
+        margin-left: 0;
+        margin-top: 0; 
+        margin-left: 0; 
+        
+    }     
+
+    #fastest-delivery-part  .image-left img {
+        margin-top: -60px;
+        margin-left: 0;
+    }
+
+    #fastest-delivery-part  .Feature-part {
+        margin-top: 0px;
+        margin-right: 0;
+    }
+    
+}
+
+/* =============================================
+    Fastest delivery part design end
+===============================================*/
+
+/* ===============================================
+        Menu  part design start
+===================================================== */
+#menu-part-section {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: var(--third-color);
+}
+
+#menu-part-section .menu-header-part h6 {
+    color: var(--primary-color);
+    font-family: var(--Permanent-Marker);
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#menu-part-section .menu-header-part h3 {
+    color: var(--text-color-2);
+    font-family: var(--Barlow);
+    font-weight: 900;
+    font-size: 60px;
+}
+#menu-part-section .menu-text-part .btn {
+    padding: 5px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-family: var(--Roboto);
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+#menu-part-section .menu-text-part h5 {
+    color: var(--text-color-2);
+    font-family: var(--Barlow);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.dotted-line {
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+  }
+  
+.dotted-line::after {
+    content: "..................................";
+    letter-spacing: 6px;
+    font-size: 30px;
+    color: #797d80;
+    display: inline-block;
+    vertical-align: 3px;
+    padding-left: 10px;
+    margin-top: -10px;
+}
+
+#menu-part-section .menu-text-part strong {
+    color: var(--primary-color);
+    font-family: var(--Barlow);
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+#menu-part-section .menu-text-part p {
+    font-family: var(--Roboto);
+    font-size: 16px;
+    margin-top: 12px;
+}
+/* ---------------------------------------
+        Menu  part design end
+------------------------------------------- */
+/* ---------------------------------------
+        Gallery  part design start
+------------------------------------------- */
+#Gallery-part-section {
+    padding-top: 60px;
+    padding-bottom: 70px;
+    background-color: var(--secondary-color);
+}
+
+#Gallery-part-section .gallery-top-part h6 {
+    color: #89B758;
+    font-family: var(--Permanent-Marker);
+    font-weight: 700;
+    font-size: 28px;
+}
+
+#Gallery-part-section .gallery-top-part h3 {
+    color: var(--text-color);
+    font-family: var(--Barlow);
+    font-weight: 900;
+    font-size: 60px;
+}
+
+#Gallery-part-section .modify-image img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#Gallery-part-section .modify-image  img {
+    max-width: 100%;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+/* ---------------------------------------
+        Gallery  part design end
+------------------------------------------- */
+/* ---------------------------------------
+        Team  part design start
+------------------------------------------- */
+#Team-part {
+    padding: 60px;
+    background-color: var(--third-color);
+}
+
+#Team-part .team-header-part h6 {
+    color: var(--primary-color);
+    font-family: var(--Permanent-Marker);
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#Team-part .team-header-part h3 {
+    color: var(--text-color);
+    font-family: var(--Barlow);
+    font-weight: 900;
+    font-size: 60px;
+}
+
+#Team-part  .card-box {
+    background-color: var(--secondary-color);
+    margin-top: 55px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+/* common part 1 */
+.card-images img {
+    max-width: 100%;
+    width: 9.5rem;
+    height: 9.5rem;
+    
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* common part 1 */
+
+#Team-part .card-box .card-title h5 {
+    color: var(--text-color);
+    font-family: var(--Barlow);
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+#Team-part .card-box .card-title p {
+    color: gray;
+    font-family: var(--Roboto);
+    font-size: 16px;
+}
+
+#Team-part .card-box .card-title .social-icon a i {
+    color: #1877F2;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+#Team-part .card-box .card-title .social-icon a [class="fa-brands fa-facebook-f"] {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#Team-part .card-box .card-title .social-icon a [class="fa-brands fa-facebook-f"]:hover {
+   transform: translateY(-15px);
+   -webkit-transform: translateY(-15px);
+   -moz-transform: translateY(-15px);
+   -ms-transform: translateY(-15px);
+   -o-transform: translateY(-15px);
+}
+
+#Team-part .card-box .card-title .social-icon a [class="fa-brands fa-twitter"] {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#Team-part .card-box .card-title .social-icon a [class="fa-brands fa-twitter"]:hover {
+    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+}
+
+ #Team-part .card-box .card-title .social-icon a [class="fa-brands fa-google-plus-g"] {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#Team-part .card-box .card-title .social-icon a [class="fa-brands fa-google-plus-g"]:hover {
+    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+}
+/* ---------------------------------------
+        Team  part design end
+------------------------------------------- */
+/* ---------------------------------------
+        FAQ Questions?  part design start
+------------------------------------------- */
+#faq-question-part {
+    padding: 60px 0;
+    background-color: var(--third-color);
+}
+
+#faq-question-part .faq-header-part h6 {
+    color: #89B758;
+    font-family: var(--Permanent-Marker);
+    font-weight: 700;
+    font-size: 28px;
+}
+
+
+#faq-question-part .faq-header-part h2 {
+    color: var(--text-color);
+    font-family: var(--Barlow);
+    font-weight: 900;
+    font-size: 60px;
+} 
+
+#faq-question-part .accordion-item .accordion-button:focus {
+    box-shadow: none;
+} 
+
+#faq-question-part .accordion-header  h4:hover {
+    color: #89B758;   
+}
+
+#faq-question-part .accordion-header h4 {
+    color: var(--text-color);
+    font-family: var(--Barlow);
+    font-weight: 700;
+    font-size: 25px;
+}
+/* -----------------------------------------
+        FAQ Questions?  part design start
+-------------------------------------------- */
+
+/* ---------------------------------------
+       Let's connect! part design start
+------------------------------------------- */
+#lets-connect-part {
+    padding-top: 50px;
+    background-color: var(--secondary-color);
+}
+
+#lets-connect-part  .title-text h6 {
+    color: var(--text-color-22);
+    font-family: var(--Barlow);
+    font-weight: 900;
+    font-size: 27px;
+    margin-top: 110px;
+}
+
+#lets-connect-part  .title-text p {
+    color: gray;
+    font-family: var(--Roboto);
+}
+
+#lets-connect-part .form-modify input:focus {
+    box-shadow: none;
+    outline-style: none;
+}
+
+#lets-connect-part  input {
+    max-width: 50%;
+    padding: 20px;
+    margin-left: -8px;   
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+#lets-connect-part .form-modify .btn-modify {
+    max-width: 25%;
+    padding: 20px;
+    color: #fff;
+    font-family: var(--Roboto);
+    font-weight: 600;
+    font-size: 17px;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+#lets-connect-part .form-modify .btn-modify:hover {
+    background-color: #FBBE36;
+}
+
+#lets-connect-part .form-modify .form-control::-webkit-input-placeholder {
+    color: gray;
+    font-family: var(--Barlow);
+    font-size: 17px;
+}
+/* ---------------------------------------
+       Let's connect! part design end
+------------------------------------------- */
+
+/* ---------------------------------------
+       Client-Review part design start
+------------------------------------------- */
+#client-review-part {
+    padding-top: 100px;
+    padding-bottom: 130px;
+    background-color:  var(--third-color);
+}
+
+#client-review-part .header-part h6{
+    color: #89B758;
+    font-family: var(--Permanent-Marker);
+    font-weight: 500;
+    font-size: 28px;
+}   
+
+#client-review-part .header-part h2 {
+    color: var(--text-color);
+    font-family: var(--Barlow);
+    font-weight: 900;
+    font-size: 60px;
+}
+
+/* carousel design start */
+#client-review-part .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    margin-right: 15%;
+    margin-bottom: -63px;
+    margin-left: 15%;
+    list-style: none;
+}
+
+#client-review-part .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    margin-right: 10px;
+    margin-left: 3px;
+    margin-bottom: -30px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    /* opacity: .5;
+    transition: opacity .6s ease; */
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#client-review-part .carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #89B758;
+    
+}
+/* carousel design end */
+
+
+#client-review-part .carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 10% 10%;
+}
+
+#client-review-part .clients-praise h4 {
+    color: var(--text-color-2);
+    font-family: var(--Barlow);
+    font-weight: 800;
+}
+
+#client-review-part .clients-praise h6 {
+    color: gray;
+    font-family: var(--Roboto);
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#client-review-part .clients-praise p {
+    color: var(--text-color);
+    font-family: var(--Barlow);
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 55px;
+    font-style: italic;
+}
+/* ---------------------------------------
+       Client-Review part design end
+------------------------------------------- */
+/* ---------------------------------------
+       video demo part design start
+------------------------------------------- */
+#video-demo-part .background-video {
+    background: linear-gradient(rgba(22,22,22,0.20),rgba(22,22,22,0.20)),url(/images/bg\ food.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: contain;
+    max-width: 100%;
+    padding: 200px;
+}
+
+#video-demo-part .background-video .btn i {
+    font-size: 40px;
+    color: #fff;
+    padding: 30px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+}
+
+#video-demo-part .background-video .btn {
+    position: relative;
+}
+
+ .wave {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255,0.30);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+
+    animation-name: waveEffict ;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes waveEffict {
+    0% {
+        transform: scale(0,0);
+        -webkit-transform: scale(0,0);
+        -moz-transform: scale(0,0);
+        -ms-transform: scale(0,0);
+        -o-transform: scale(0,0);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.5,1.5);
+        -webkit-transform: scale(1.5,1.5);
+        -moz-transform: scale(1.5,1.5);
+        -ms-transform: scale(1.5,1.5);
+        -o-transform: scale(1.5,1.5);
+        opacity: 0.5;
+}
+
+    100% {
+        transform: scale(0,0);
+        -webkit-transform: scale(0,0);
+        -moz-transform: scale(0,0);
+        -ms-transform: scale(0,0);
+        -o-transform: scale(0,0);
+        opacity: 0;
+    }
+}
+/* ---------------------------------------
+       video demo part design end
+------------------------------------------- */
+/* ---------------------------------------
+       Write a Review part design start
+------------------------------------------- */
+#write-review-part {
+    padding: 100px 0;
+    background: var(--third-color);
+}
+ 
+#write-review-part .write-review-text h6 {
+    color: var(--text-color-2);
+    font-family: var(--Barlow);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#write-review-part .write-review-text p {
+    color: gray;
+    font-family: var(--Roboto);
+    font-size: 16px;
+}
+
+#write-review-part .from-inner .form-control {
+    padding: 20px;
+}
+
+#write-review-part .from-inner .form-control:focus {
+    box-shadow: none;
+}
+
+
+#write-review-part .text-area .form-control:focus {
+    box-shadow: none;
+}
+
+#write-review-part .Send-message .btn {
+    color: #fff;
+    font-family: var(--Roboto);
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: #E7272D;
+    padding: 18px 52px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+#write-review-part .Send-message .btn:hover {
+    background-color: #FBBE36;
+}
+/* ---------------------------------------
+       Write a Review part design end
+------------------------------------------- */
+
+/* ---------------------------------------
+      location-part part design start
+------------------------------------------- */
+
+ iframe {
+    max-width: 100%;
+    width: 100%;
+}
+/* ---------------------------------------
+      location-part part design end
+------------------------------------------- */
+
+/* ---------------------------------------
+      contact-us part design start
+------------------------------------------- */
+#contact-us-part {
+    padding: 60px;
+}
+
+#contact-us-part .card-text h6 {
+    color: var(--text-color);
+    font-family: var(--Barlow);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#contact-us-part  .card-Initial {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#contact-us-part .info-card {
+   max-width: 100%;
+   width: 380px;
+   height: 310px;
+   transition: 0.4s;
+   -webkit-transition: 0.4s;
+   -moz-transition: 0.4s;
+   -ms-transition: 0.4s;
+   -o-transition: 0.4s;
+}
+
+#contact-us-part .info-card:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+}
+
+#contact-us-part .card-text strong {
+    color: #E7272D;
+    font-family: var(--Barlow);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#contact-us-part .card-text .tel-email {
+    color: gray;
+    font-family: var(--Roboto);
+    font-size: 16px;
+}
+
+#contact-us-part .card-text i {
+    color: #E7272D;
+    font-size: 40px;
+}
+
+#contact-us-part .card-text p {
+    color: gray;
+    font-family: var(--Roboto);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.dotted-line {
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+  }
+  
+.dotted-line::after {
+    content: "...................................................................";
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: #797d80;
+    display: inline-block;
+    vertical-align: 3px;
+    padding-left: 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+#contact-us-part .card-text .wrapper span {
+    color: gray;
+    font-family: var(--Roboto);
+}
+/* ---------------------------------------
+      contact-us part design end
+------------------------------------------- */
+
+/* --=======================================
+      footer part design start
+===========================================--- */
+#footer-part {
+    padding: 60px 0;
+    background-color: var(--secondary-color);
+}
+
+#footer-part .footer-left-part ul li a {
+    color: var(--text-color-2);
+    font-family: var(--Roboto);
+    font-weight: 400;
+}
+
+#footer-part .footer-left-part .footer-text p {
+    color: var(--text-color-2);
+    font-family: var(--Roboto);
+    opacity: 0.7;
+}
+
+#footer-part .footer-social-icon a i {
+    font-size: 23px;
+    margin-right: 16px;
+}
+
+#footer-part .footer-social-icon a [class="fa-brands fa-twitter"] {
+    color: #fff;
+    background-color: #E7272D;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+#footer-part .footer-social-icon a [class="fa-brands fa-twitter"]:hover {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+}
+
+#footer-part .footer-social-icon a [class="fa-brands fa-facebook-f"] {
+    color: #fff;
+    background-color: #E7272D;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#footer-part .footer-social-icon a [class="fa-brands fa-facebook-f"]:hover {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+}
+
+#footer-part .footer-social-icon a [class="fa-brands fa-youtube"] {
+    color: #fff;
+    background-color: #E7272D;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#footer-part .footer-social-icon a [class="fa-brands fa-youtube"]:hover {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+}
+
+#footer-part .footer-social-icon a [class="fa-brands fa-vimeo-v"] {
+    color: #fff;
+    background-color: #E7272D;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#footer-part .footer-social-icon a [class="fa-brands fa-vimeo-v"]:hover {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+}
+

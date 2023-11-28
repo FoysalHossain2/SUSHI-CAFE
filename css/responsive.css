@@ -1,0 +1,30 @@
+/* ===============================================
+    **** responsive for   Medium devices ***** 
+===================================================*/
+
+/* =================================================
+        order-part responsive start
+=================================================== */
+@media (max-width: 991.98px) { 
+
+    #sushi-cafe-part .banner-left-image img {
+        max-width: 100%;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    /* order part responsive start */
+    #order-part .order-middle-image img {
+        margin-top: 115px;
+    }
+
+    #order-part .order-common-part h6 {
+        margin-top: 148px;
+    }
+
+    #order-part {
+        padding: 50px 0;
+        background-color: var(--secondary-color);
+    }
+
+}
